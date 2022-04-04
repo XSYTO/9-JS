@@ -36,7 +36,15 @@ console.log(r4);
 
 console.log('---------');
 // arrow (rodykline) funkcija
-// jei logikos bloke {} yra tik 1 procedura, tai galime nerasyti  {}
-const kvadratu = (a) => a * a;
+// jei logikos bloke () yra tik 1 procedura, tai galime nerasyti ()
+const kvadratu = a => a * a;
 const r5 = kvadratu(pirmas);
 console.log(r5);
+
+console.log('---------');
+const tekstas = 'Labas rytas';
+
+function pirmaRaide(text) {
+    return text[0];
+}
+console.log(pirmaRaide(tekstas));
